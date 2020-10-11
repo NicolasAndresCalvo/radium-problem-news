@@ -10,7 +10,7 @@ First new: https://www.rosario3.com/informaciongeneral/Las-empresas-de-venta-rem
 
 ---
 
-Second new: 
+Second new: https://www.bbc.com/news/health-54500673
 
 ---
 
