@@ -1,28 +1,164 @@
-/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0px;
     padding: 0px;
     border: 0px;
     font: inherit;
     vertical-align: baseline;
-} */
-    
+}
+
 body{
     background-color: rgb(255, 255, 255);
+    line-height: 1;
+    text-size-adjust: none;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
     display: block;
 }
 
-
-article{
-
-}
-
-header{
-
-}
-
 h1{
+    font-size: 2.75rem;
+    line-height: 3rem;
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: #3F3F42;
+}
 
+.main-container{
+    /* -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto; */
+}
+
+.article-container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    max-width: 63rem;
+}
+
+.article{
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #3F3F42;
+    margin: 1rem 0 1.5rem 0;
+    max-width: 50rem;
+    padding-bottom: 1.5rem;
+}
+
+.header{
+    border-bottom: solid 1px #BABABA;
+    padding-bottom: 1.5rem;
+}
+
+.container-botton{
+    margin-top: 1rem;
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+
+.coronavirus-botton{
+    color: #3F3F42;
+    border: 1px solid #DB7F7F;
+    font-weight: bold;
+    padding: 0.5rem;
+    /* -webkit-text-decoration: none; */
+    text-decoration: none;
+}
+
+.image-container{
+    margin: 1.5rem 0;
+}
+
+.figure{
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+
+.relative-container{
+    position: relative;
+}
+
+.span-image{
+    position: relative;
+    display: block;
+    padding-bottom: 56.25%;
+}
+
+.first-image{
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.span-getty{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #3F3F42;
+    color: #EEEEEE;
+    padding: 0.25rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.getty{
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    width: 1px;
+    height: 1px;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    -webkit-clip: rect(1px,1px,1px,1px);
+    clip: rect(1px,1px,1px,1px);
+    white-space: nowrap;
+}
+
+.figcaption{
+    background: #3F3F42;
+    color: #EEEEEE;
+    padding: 1rem;
+}
+
+.span-figcaption{
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    width: 1px;
+    height: 1px;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    -webkit-clip: rect(1px,1px,1px,1px);
+    clip: rect(1px,1px,1px,1px);
+    white-space: nowrap;
+}
+
+.paragraph{
+    margin: 1rem 0;
+    max-width: 36.25rem;
+}
+
+.bold{
+    font-weight: bold;
 }
